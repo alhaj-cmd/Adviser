@@ -5,7 +5,7 @@ const Home = () => {
     const [Count, setCount] = useState('sujon');
 
     const handleCount = () => {
-        setCount('alhaj')
+        setCount('sarker')
     }
     const handleCountMinus = () => {
         setCount(

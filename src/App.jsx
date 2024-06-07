@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './assets/components/Home/Home';
+import Person from './assets/components/Person/Person';
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
+    <Person></Person>
     <Home/>
     </div>
   );
