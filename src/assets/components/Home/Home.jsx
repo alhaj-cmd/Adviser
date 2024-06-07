@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 const Home = () => {
     // let Counts = 0; 
-    const [Count, setCount] = useState(0);
+    const [Count, setCount] = useState('sujon');
 
     const handleCount = () => {
-        setCount(Count+1)
+        setCount('alhaj')
     }
     const handleCountMinus = () => {
         setCount(
