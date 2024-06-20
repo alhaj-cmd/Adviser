@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './assets/components/Home/Home';
 import Person from './assets/components/Person/Person';
 import Button from './assets/components/Button/Button';
+import Card from './assets/components/Card/Card';
 
 const App = () => {
   return (
@@ -10,6 +11,8 @@ const App = () => {
       Hello world!
     </h1>
     <Button>See More</Button>
+    <Button>Sort by date</Button>
+    <Card></Card>
     <Person></Person>
     <Home/>
     </div>
