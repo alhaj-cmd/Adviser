@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Button = () => {
+const Button = ({props}) => {
+    console.log('This is button section', props)
     return (
         <div>
-            <button>see more</button>
+            <button></button>
         </div>
     );
 };
