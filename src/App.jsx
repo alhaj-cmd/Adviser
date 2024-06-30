@@ -10,8 +10,8 @@ const App = () => {
       <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
-    <Button>See More</Button>
-    <Button>Sort by date</Button>
+    {/* <Button>See More</Button>
+    <Button>Sort by date</Button> */}
     <Card></Card>
     <Person></Person>
     {/* <Home/> */}

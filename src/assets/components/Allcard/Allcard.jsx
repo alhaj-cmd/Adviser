@@ -4,7 +4,7 @@ const Allcard = (props) => {
     const {description, features } = props.setAlldata;
     console.log('All card data', props);
     return (
-        <div>
+        <div className=''>
             <div className="card bg-base-100 w-96 shadow-xl">
   <figure>
     <img
