@@ -14,7 +14,7 @@ const App = () => {
     <Button>Sort by date</Button>
     <Card></Card>
     <Person></Person>
-    <Home/>
+    {/* <Home/> */}
     </div>
   );
 };
